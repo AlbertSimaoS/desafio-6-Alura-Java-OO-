@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Cachorro cachorro = new Cachorro();
+        cachorro.emitirSom();
+        cachorro.abanarRabo();
+
+        Gato gato = new Gato();
+        gato.emitirSom();
+        gato.arranharMoveis();
     }
 }
