@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Main {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro();
+        cachorro.emitirSom();
+        cachorro.abanarRabo();
 
-public class Animal {
+        Gato gato = new Gato();
+        gato.emitirSom();
+        gato.arranharMoveis();
+    }
 }
